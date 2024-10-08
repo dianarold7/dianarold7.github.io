@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Animation (Animate css)-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<!--Fonts(tipografía)-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<!--css-->
+<link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Portafolio / Diana</title>
+</head>
+<body>
+    <nav>
+       <h1> Diana Roldán </h1>
+  <!--Menú de navegación-->
+  <ul class="navigation">
+     <li><a href="#about" class="nav-link">About</a></li>
+     <li><a href="#skills" class="nav-link">Skills</a></li>
+     <li><a href="#projects" class="nav-link">Projects</a></li>
+     <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+  <button class="burger-menu" id="burger-menu">  
+    <ion-icon class="bars"name="menu-online">
+
+    </ion-icon>
+  </button>
+</nav>
+<!--Hero-->
+<section class="hero" id="about">   <!--El id about es para cuando nosotros estemos navegando y precionemos about nos lleve al about-->
+  
+  <img src="/assets/images/dr.jpg" alt="" class="hero-img">
+  <div class="bio animate__animated animate__zoomInDown  animate__slow	2s ">
+   
+    <h2 class="bio-title">About Me</h2>
+    <p class="bio-text">Hola! Soy Diana.</p>
+       <p>Apasionada por el aprendizaje continuo, me encanta la gastronomía 🍰 (especialmente el arte de la repostería), la tecnología 💻 y la naturaleza 🌿, ya que en estas áreas encuentro una forma de expresión y creatividad ✨.
+       </p>
+
+     <p>"Me gustan los retos y los enfrento con persistencia y determinación. Aspiro a un mundo más justo e inclusivo, por lo que cada día trabajo para ser una mejor versión de mí misma y contribuir de manera positiva a la sociedad 🌍."
+     </p>
+
+  </div>
+</section>
+<br><!--Separa los parrafos-->
+
+<!--More about-->
+<section class="more-about">
+<h2>More about me </h2>
+<p>
+  Mi curiosidad por la naturaleza me ha llevado a explorar el funcionamiento de la vida y los ecosistemas que nos rodean. Esta fascinación se complementa con mi interés por la tecnología, un campo en constante evolución que me inspira a aprender y adaptarme. Creo firmemente en la importancia de cuidar nuestro planeta y estoy comprometida a vivir de manera sostenible.Descubrí que la tecnología puede unir todas las áreas que me gustan, y es por ello que estoy aprendiendo a programar.</p>
+  
+  <p>Soy egresada del Centro de Bachillerato Tecnológico Industrial y de Servicios No.211, en el cuál me titulé cómo técnica en Preparación de Alimentos y Bebidas.</p>
+  
+  <p>Soy una persona detallista, siempre atenta a los pequeños aspectos que marcan la diferencia. Ya sea en la cocina, en mis estudios o en proyectos de programación, me gusta aportar ideas nuevas y creativas en cada iniciativa. Además, me considero muy responsable y comprometida con cada proyecto que emprendo.
+    El aprendizaje continuo es una de mis mayores prioridades, lo que me ha llevado a aprender no solo programación, sino también inglés y alemán.</p>
+ <br><!--Separa los parrafos-->
+<p>Como feminista, defiendo la igualdad de género y el empoderamiento de las mujeres, valores que guían tanto mi vida personal como profesional.</p>
+
+<p>Una de mis mayores aspiraciones es viajar por el mundo, explorar diversas culturas y adquirir experiencias que enriquezcan mi vida. Siempre estoy en búsqueda de oportunidades para superarme, tanto personal como profesionalmente, y contribuir de manera positiva a la sociedad.</p>
+
+<p>Me siento entusiasmada por el futuro y abierta a nuevas oportunidades que me permitan crecer y hacer una diferencia en el mundo.</p>
+</section>
+
+<!--Skills section-->
+<section class="skills" id="skills"> 
+  <h2 class="skill-header">My Top Skills</h2>
+  <div class="skills-wrapper">  <!--La class viene de bootstrap (sería la primera parte de las imagenes)-->
+    <div class="first-set animate__animated animate__pulse"><!--La animacion de bootstrap-->
+    <img src="assets/icons/icons8-html-5.svg" alt="HTML" loading="lazy" class="icon icon-card">
+    <img src="assets/icons/icons8-css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+    <img src="assets/icons/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card">
+    </div>
+    <div class="second-set animate__animated animate__pulse"> <!--Es la segunda parte de las imagenes(para que se vea en dos filas distintas )-->
+      <img src="assets/icons/icons8-bootstrap.svg" alt="Bootstrap" loading="lazy" class="icon icon-card">
+      <img src="assets/icons/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card">
+      <img src="assets/icons/icons8-git.svg" alt="Git" loading="lazy" class="icon icon-card">
+    </div>
+
+  </div>
+</section>
+
+<!--Projects-->
+<section class="projects" id="projects">
+  <h2 class="projects-title">Some of my recent projects</h2>
+  <div class="projects-container">
+    <div class="project-container project-card">
+      <img src="assets/images/pinterest.clon.jfif" alt="Clon de Pinterest" loading="lazy" class="project-pic">
+      <h3 class="project-title">Interfaz de Pinterest</h3>
+      <p class="project-details">Este proyecto es un clon de la interfaz de inicio de Pinterest, creado exclusivamente con HTML5 y CSS3</p>
+      <a href="https://vercel.com/diana-roldans-projects/clon-pinterest/3NPiNYw8jQa5HnxGnJCr9SKLipnD" target="_blank">Check it out!</a>
+    </div>
+
+    <div class="project-container project-card">
+      <img src="assets/images/pinterest.clon.jfif" alt="Clon de Pinterest" loading="lazy" class="project-pic">
+      <h3 class="project-title">Interfaz de Pinterest</h3>
+      <p class="project-details">Este proyecto es un clon de la interfaz de inicio de Pinterest, creado exclusivamente con HTML5 y CSS3</p>
+      <a href="https://vercel.com/diana-roldans-projects/clon-pinterest/3NPiNYw8jQa5HnxGnJCr9SKLipnD" target="_blank">Check it out!</a>
+    </div>
+
+    <div class="project-container project-card">
+      <img src="assets/images/pinterest.clon.jfif" alt="Clon de Pinterest" loading="lazy" class="project-pic">
+      <h3 class="project-title">Interfaz de Pinterest</h3>
+      <p class="project-details">Este proyecto es un clon de la interfaz de inicio de Pinterest, creado exclusivamente con HTML5 y CSS3</p>
+      <a href="https://vercel.com/diana-roldans-projects/clon-pinterest/3NPiNYw8jQa5HnxGnJCr9SKLipnD" target="_blank">Check it out!</a>
+    </div>
+  
+  </div>
+</section>
+
+<!--Redes sociales-->
+<div class="socials" id="socials">
+  <a href="www.linkedin.com/in/dianaarold7" target="_blank"><img src="assets/icons/linkedin.png" alt="LinkedIn" loading="lazy" class="socicon"></a>
+
+  <a href="https://github.com/dianarold7" target="_blank"><img src="assets/icons/github.png" alt="GitHub" loading="lazy" class="socicon"></a>
+
+  <a href="https://www.instagram.com/dianaaa.jk/" target="_blank"><img src="assets/icons/instagram.png" alt="Instagram" loading="lazy" class="socicon"></a>
+
+  <a href="https://wa.me/522461222391" target="_blank"><img src="assets/icons/whatsapp.png" alt="WhatsApp" loading="lazy" class="socicon"></a>
+</div>
+
+<!--Scroll button-->
+<i class="scroll-up" id="scroll-up">
+  <img src="assets/icons/arrow_up.gif" class="socicon up-arrow" alt="scroll up">
+</i>
+
+<footer>
+<p>Creado por Diana Roldán (2024)💗</p>
+</footer>
+
+<!--JavaScript link-->
+<script src="app.js"></script>
+
+</body>
+</html>
+
+
+
